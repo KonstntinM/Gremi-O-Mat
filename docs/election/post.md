@@ -1,6 +1,6 @@
-# Create User's Account
+# Create a new election
 
-Create a new election.
+Create a new election and retrive an access code.
 
 **URL** : `/election/`
 
