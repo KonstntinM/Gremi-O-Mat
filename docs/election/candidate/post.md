@@ -43,7 +43,7 @@ Provide id of board to stand up as candidate to.
         "name": "Schulkonferenz",
         "description": "Die Schulkonferenz ist das oberste Schulgremium.",
         "votes": 4,
-        "iAmACandidate": false
+        "iAmACandidate": true
     }
 ```
 
