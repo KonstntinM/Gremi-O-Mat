@@ -33,6 +33,14 @@ Update the election.
 {
     "name": "Gremienwahlen der Mozart-Schule",
     "description": "Wahlen der Schülervertretung für das Schuljahr 2019/20",
+    "voters": [
+            {
+                "id": 0,
+                "firstname": "Max",
+                "lastname": "Mustermann",
+                "description": "1a"
+            }
+    ],
     "boards": [
             {
                 "name": "Schulkonferenz",

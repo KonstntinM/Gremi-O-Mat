@@ -37,6 +37,38 @@ Get all information of an election about its election id.
 }
 ```
 
+OR
+
+**Condition** : User is the owner of the election.
+
+**Code** : `200 OK`
+
+**Content** : 
+```json
+{
+    "election": {
+        "id": 0,
+        "name": "Gremienwahlen der Mozart-Schule",
+        "description": "Wahlen der Schülervertretung für das Schuljahr 2019/20",
+        "voters": [
+            {
+                "id": 0,
+                "firstname": "Max",
+                "lastname": "Mustermann",
+                "description": "1a"
+            }
+        ],
+        "boards": [
+            {
+                "id": 0,
+                "name": "Schulkonferenz",
+                "description": "Die Schulkonferenz ist das oberste Schulgremium.",
+                "votes": 4
+            }
+        ]
+    },
+}
+```
 ## Error Response
 
 **Condition** : Election does not exist.
