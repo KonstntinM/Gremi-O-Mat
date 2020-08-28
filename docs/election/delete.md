@@ -14,7 +14,7 @@ Delete an election
 
 ## Success Response
 
-**Condition** : If the election.
+**Condition** : If the election was successfully removed.
 
 **Code** : `204 NO CONTENT`
 
