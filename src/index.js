@@ -2,6 +2,7 @@ const express = require("express");
 var app = express();
 
 const cookieParser = require("cookie-parser");
+const bodyParser = require("body-parser");
 
 const config = require("config-yaml")(`${__dirname}/config/config.yaml`)
 
