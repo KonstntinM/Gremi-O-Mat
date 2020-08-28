@@ -1,7 +1,7 @@
 # For documentation purposes, this file temporarily contains values, but these are not permanently valid or are changed.
 
 Server:
-  PORT: 80
+  - PORT: 80
 
 Database:
   - NAME: Phynix
