@@ -3,8 +3,13 @@ var app = express();
 
 const cookieParser = require("cookie-parser");
 
+
 const config = require('yaml').parse(require('fs').readFileSync(__dirname + '/config/config.yaml', 'utf8'))
+
 const allowCrossOrigin = require("./services/allowCrossOrigin");
+const loader = require("./loaders/loader");
+
+loader.load()
 
 app.use(express.json())
 app.use(bodyParser.raw({type: 'application/json'}));
