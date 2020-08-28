@@ -1,6 +1,8 @@
 const express = require("express");
 var app = express();
 
+const cookieParser = require("cookie-parser");
+
 const config = require('yaml').parse(require('fs').readFileSync(__dirname + '/config/config.yaml', 'utf8'))
 const allowCrossOrigin = require("./services/allowCrossOrigin");
 
