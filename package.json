@@ -1,0 +1,28 @@
+{
+  "name": "gremi-o-mat",
+  "version": "1.0.0",
+  "description": "Tool for the interactive creation of an election list for any committee election. ",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstntinM/Gremi-O-Mat.git"
+  },
+  "keywords": [
+    "wahl",
+    "election",
+    "mat",
+    "schülervertretung"
+  ],
+  "author": "KonstntinM",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/KonstntinM/Gremi-O-Mat/issues"
+  },
+  "homepage": "https://github.com/KonstntinM/Gremi-O-Mat#readme"
+}
