@@ -6,7 +6,7 @@ Get all information of an election about its election id.
 
 **Method** : `GET`
 
-**Auth required** : NO
+**Auth required** : YES
 
 **Permissions required** : None
 
@@ -30,7 +30,8 @@ Get all information of an election about its election id.
                 "id": 0,
                 "name": "Schulkonferenz",
                 "description": "Die Schulkonferenz ist das oberste Schulgremium.",
-                "votes": 4
+                "votes": 4,
+                "iAmACandidate": false
             }
         ]
     },
