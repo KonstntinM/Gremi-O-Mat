@@ -1,2 +1,12 @@
+# For documentation purposes, this file temporarily contains values, but these are not permanently valid or are changed.
+
 Server:
   PORT: 80
+
+Database:
+  - NAME: Phynix
+  - URL: cluster0.cq4ah.mongodb.net
+  - PORT: 80
+  - USER: 
+    - USERNAME: dbUser
+    - PASSWORD: 8KgnaEmiPKYCeR9
