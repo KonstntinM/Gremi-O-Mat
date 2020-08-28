@@ -40,6 +40,7 @@ Provide name of Account to be created.
 {
     "election": {
         "id": 0,
+        "code": "245934",
         "name": "Gremienwahlen der Mozart-Schule",
     },
     "code": "14a9u"

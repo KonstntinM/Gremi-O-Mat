@@ -23,6 +23,7 @@ Get all information of an election about its election id.
 {
     "election": {
         "id": 0,
+        "code": "245934",
         "name": "Gremienwahlen der Mozart-Schule",
         "description": "Wahlen der Schülervertretung für das Schuljahr 2019/20",
         "boards": [
@@ -49,6 +50,7 @@ OR
 {
     "election": {
         "id": 0,
+        "code": "245934",
         "name": "Gremienwahlen der Mozart-Schule",
         "description": "Wahlen der Schülervertretung für das Schuljahr 2019/20",
         "voters": [
