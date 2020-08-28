@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/KonstntinM/Gremi-O-Mat/issues"
   },
-  "homepage": "https://github.com/KonstntinM/Gremi-O-Mat#readme"
+  "homepage": "https://github.com/KonstntinM/Gremi-O-Mat#readme",
+  "dependencies": {
+    "config-yaml": "^1.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "nodemon": "^2.0.4"
+  }
 }
